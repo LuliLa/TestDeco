@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestDecompiler</string>
+    <string name="classes">Классы</string>
+    <string name="scholars">Ученики</string>
+    <string name="shedules">Запланированные тесты</string>
+
+    <string name="enter_like">Вы вошли, как </string>
+
+    <string name="show_db_school">БД учеников</string>
+    <string name="show_db_tests">БД тестов</string>
+    <string name="edit_testing_plan">Запланировать тестирование</string>
+    <string name="export_class_to_xls">Выгрузить данные по классу в Excel</string>
+    <string name="export_schooler_to_xls">Выгрузить данные по ученику в Excel</string>
+
+    <string name="testing_plan">Запланированные тесты</string>
+    <string name="statistics">Личная статистика</string>
+
+    <string name="unlogin">Выйти из учетной записи</string>
+    <string name="login">Войти в учетную запись</string>
+
+    <string name="add_button">Добавить</string>
+
+    <string name="family">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="otch">Отчество</string>
+    <string name="user_name">Логин</string>
+    <string name="phone">Телефон</string>
+    <string name="pass">Пароль</string>
+    <string name="enable_in_test">Учавствует в тестировании</string>
+    <string name="person_image">image of person</string>
+    <string name="cancel_button"/>
+    <string name="save_button"/>
+
+    <string name="no_planned_test_notif">Запланированных тестов нет</string>
+    <string name="no_stats_notif">История тестирования пуста</string>
+    <string name="planned_past_to"> Пройти до: </string>
+    <string name="run_test"> Начать тестирование </string>
+    <string name="accept_answer"> Принять ответ </string>
+
+
+</resources>

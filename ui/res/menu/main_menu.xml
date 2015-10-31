@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/address" android:id="@+id/person_pack" android:title="@string/enter_like" android:showAsAction="withText" android:onClick="onMenuClick"/>
+    <group android:id="@+id/admin_menu">
+        <item android:id="@+id/show_scholars_db" android:title="@string/show_db_school" android:onClick="onMenuClick"/>
+        <item android:id="@+id/show_tests_db" android:title="@string/show_db_tests" android:onClick="onMenuClick"/>
+        <item android:id="@+id/export_class_to_xls" android:title="@string/export_class_to_xls" android:onClick="onMenuClick"/>
+        <item android:id="@+id/export_schl_to_xls" android:title="@string/export_schooler_to_xls" android:onClick="onMenuClick"/>
+    </group>
+
+    <group android:id="@+id/scholars_menu">
+        <item android:id="@+id/show_planned_tests" android:title="@string/testing_plan" android:onClick="onMenuClick"/>
+        <item android:id="@+id/personal_stat" android:title="@string/statistics" android:onClick="onMenuClick"/>
+    </group>
+
+    <item android:id="@+id/login" android:title="@string/login" android:onClick="onMenuClick"/>
+    <item android:id="@+id/unlogin" android:title="@string/unlogin" android:onClick="onMenuClick"/>
+
+</menu>
